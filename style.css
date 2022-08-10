@@ -1,16 +1,24 @@
+div {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .header-logo {
 font-size: 24px;
 color: #f9faf8;
+flex-grow: 1;
+padding: 8px;
+font-style: italic;
+font-weight: bold;
 }
 
 .header-links {
 font-size: 18px;
 color: #E5E7EB;
+padding: 8px;
 }
