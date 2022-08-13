@@ -62,7 +62,7 @@ p {
     margin: 10px;
 }
 
-button {
+.topButton {
     height: 50px;
     width: 300px;
     color: #3882F6;
@@ -100,5 +100,58 @@ h2 {
     display: flex;
     text-align: center;
     justify-content: space-around;
+    margin-bottom: 25px;
+}
 
+.testimonialBlock {
+    background-color: #E5E7EB;
+    padding: 20px;
+}
+
+.testimonial {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 30px;
+    padding: 0 45px 0 45px;
+}
+
+.customer {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: end;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px 20px 40px;
+    margin: 90px 110px 90px 110px;
+    background-color: #3882F6;
+    border-radius: 20px;
+}
+
+.actionText {
+    color: #f9faf8;
+    text-align: start;
+    width: 400px;
+    flex-grow: 1;
+}
+
+.bottomButton {
+    height: 25px;
+    width: 150px;
+    border-style: solid white;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
 }
