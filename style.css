@@ -1,17 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 div {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     background-color: #1F2937;
 }
 
 .header-logo {
 font-size: 24px;
 color: #f9faf8;
-flex-grow: 1;
+flex: 1 0 auto;
 padding: 8px;
 font-style: italic;
 font-weight: bold;
@@ -20,5 +26,51 @@ font-weight: bold;
 .header-links {
 font-size: 18px;
 color: #E5E7EB;
-padding: 8px;
+padding: 10px;
+text-decoration: none;
+flex: 0 1 auto
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    flex: 1;
+    margin: 20px 10px;
+}
+
+.grayBox {
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: darkgray;
+    padding: 100px 75px;
+    flex: 1;
+    margin: 20px 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex: 1;
+    margin: 10px;
+}
+
+button {
+    height: 50px;
+    width: 300px;
+    color: #3882F6;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    flex: 1;
+    margin: 10px;
+    align-self: center;
 }
