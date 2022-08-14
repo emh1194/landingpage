@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
 }
 
 div {
@@ -12,6 +14,7 @@ div {
     justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
+    width: 100%;
 }
 
 .header-logo {
@@ -35,6 +38,7 @@ flex: 0 1 auto
     display: flex;
     justify-content: space-around;
     background-color: #1F2937;
+    width: 100%;
 }
 
 h1 {
@@ -87,6 +91,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     margin-bottom: 12px;
+    width: 100%
 }
 
 .info {
@@ -106,6 +111,7 @@ h2 {
 .testimonialBlock {
     background-color: #E5E7EB;
     padding: 20px;
+    
 }
 
 .testimonial {
